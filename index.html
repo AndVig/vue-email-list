@@ -10,7 +10,7 @@
 <body>
     <div class="container" id="app">
         <ol>
-            <li f-for="mail in mails"></li>
+            <li v-for="mail in emails">{{email}}</li>
         </ol>
     </div>
 
@@ -18,6 +18,6 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
-    <script src="./JS/script.js"></script>
+    <script src="./JS/main.js"></script>
 </body>
 </html>
